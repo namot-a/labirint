@@ -1,0 +1,55 @@
+#maze {
+    border-style: solid;
+    background-color: #ffffff;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+body {
+    background: linear-gradient(339deg, rgba(147, 141, 245, 1) 0%, rgba(255, 217, 43, 1) 100%);
+}
+
+.block {
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+.wall {
+    background-color: #000;
+}
+
+.me {
+    position: relative;
+}
+
+.me:after {
+    background-color: #23afee;
+    border-radius: 100%;
+    content: '';
+    height: 20px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+.finish {
+    background-color: #f31d1d;
+}
+
+#complete {
+    display: none;
+    height: 440px;
+    position: absolute;
+    top: 207px;
+    width: 440px;
+    z-index: 1000;
+    background-color: #50f566;
+    font-size: 85px;
+    text-align: center;
+    color: #202020;
+}
