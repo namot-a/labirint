@@ -11,6 +11,9 @@ html {
     display: flex;
     justify-content: center;
     margin-top: 220px;
+    overflow: hidden;
+    position: fixed;
+    left: 800px;
 }
 
 body {
@@ -49,7 +52,6 @@ body {
     display: none;
     height: 440px;
     position: absolute;
-    top: 207px;
     width: 440px;
     z-index: 1000;
     background-color: #50f566;
