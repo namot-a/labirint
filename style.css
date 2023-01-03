@@ -3,6 +3,10 @@
     background-color: #ffffff;
 }
 
+html {
+    height: 1500px;
+}
+
 .game {
     display: flex;
     justify-content: center;
